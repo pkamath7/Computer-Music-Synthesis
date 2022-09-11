@@ -1,0 +1,10 @@
+#N canvas 886 454 450 300 12;
+#X obj 52 53 inlet freq;
+#X obj 176 53 inlet amp;
+#X obj 66 126 osc~;
+#X obj 71 176 *~;
+#X obj 74 212 outlet~;
+#X connect 0 0 2 0;
+#X connect 1 0 3 1;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
